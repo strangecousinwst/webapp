@@ -31,5 +31,5 @@ func (wh *WorkoutHandler) HandleGetWorkoutByID(w http.ResponseWriter, r *http.Re
 }
 
 func (wh *WorkoutHandler) HandleCreateWorkout(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "creaded a workout\n")
+	fmt.Fprintf(w, "created a workout\n")
 }
