@@ -21,3 +21,6 @@ go.work.sum
 # Database files
 /database
 ./database/
+
+# temp files
+tmp/
